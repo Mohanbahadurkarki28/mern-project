@@ -1,0 +1,55 @@
+User
+    -name
+    -email
+    -password
+    -phone
+    -address
+
+role 
+    -admin
+    -staff
+    -customer
+
+status
+
+catagory
+    -name
+    -status
+
+brands
+    -name
+    -status
+
+product
+    -name
+    -description
+    -summary
+    -price
+    -dicounted price
+    -images  --array of string hunxa yesma
+    -catagory-Id
+    -brand-Id
+    -status
+    -featured
+
+review
+    -userId
+    -productId
+    -rating
+    -comment
+
+orders
+    -user-Id
+    -status
+        -processing
+        -confirmed
+        -shipping
+        -delvered
+        -cancelled
+
+details
+    -order-Id
+    -product-Id
+    -quantity
+    -price
+    -total
